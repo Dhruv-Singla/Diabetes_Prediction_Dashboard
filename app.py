@@ -588,9 +588,3 @@ with tab5:
     st.success(
         f"Best Model: {best_model['Model']} | Accuracy: {best_model['Cross Validation Accuracy']}"
     )
-
-st.markdown("---")
-
-st.caption(
-    "Developed by Dhruv Singla | ML Visual Analytics Studio"
-)
