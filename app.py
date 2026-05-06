@@ -26,12 +26,15 @@ from sklearn.metrics import (
 )
 
 st.set_page_config(
-    page_title="ML Visual Analytics Studio",
+    page_title="Diabetes Prediction Dashboard",
     layout="wide"
 )
 
-st.title("ML Visual Analytics Studio")
-st.subheader("GUI-Based Machine Learning Platform for Classification Analysis")
+st.title("Diabetes Prediction Dashboard")
+
+st.subheader(
+    "GUI-Based Machine Learning Platform for Healthcare Classification"
+)
 
 df = pd.read_csv("diabetes.csv")
 
